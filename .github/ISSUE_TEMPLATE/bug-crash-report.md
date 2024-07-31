@@ -1,7 +1,7 @@
 ---
-name: "(Mod name) Bug:  -detail"
+name: BUG/CRASH report
 about: My game is crashing!
-title: BUG/CRASH
+title: "(Mod name) Bug: "
 labels: bug
 assignees: ''
 
