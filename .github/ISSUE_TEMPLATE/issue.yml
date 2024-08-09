@@ -1,0 +1,28 @@
+name: Issue
+description: File a bug report
+body:
+  - type: checkboxes
+    attributes:
+      label: Confirmations
+      options:
+        - label: I can verify that I am running the mod on the latest possible Minecraft version.
+          required: true
+        - label: I can verify that the issue I am reporting exists on the latest possible Mod version.
+          required: true
+  - type: input
+    attributes:
+      label: Mod version (NOT Minecraft version)
+      description: Please do not put "latest,", "newest," or some other vague indiciator.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: A description of the issue
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Log or crash report
+      description: Please use [gist](https://gist.github.com/).
+    validations:
+      required: true
