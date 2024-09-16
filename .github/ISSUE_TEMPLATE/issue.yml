@@ -20,8 +20,8 @@ body:
       label: Mod Name
       description: This repo contains all the mod reports. I need to know which mod you are reporting.
       options:
-        - value: penomior
-        - value: sypwid
+        - Penomior
+        - SypWid
     validations:
       required: true
   - type: textarea
