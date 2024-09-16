@@ -21,11 +21,9 @@ body:
       description: This repo contains all the mod reports. I need to know which mod you are reporting.
       options:
         - value: penomior
-          label: Penomior
-          description: Report on Penomior mod.
         - value: sypwid
-          label: SypWid
-          description: Report on the SypWid mod.
+      validations:
+        required: true
   - type: textarea
     attributes:
       label: A description of the issue
