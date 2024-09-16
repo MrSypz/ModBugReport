@@ -15,9 +15,9 @@ body:
       description: Please do not put "latest,", "newest," or some other vague indiciator.
     validations:
       required: true
-  - type: input
+  - type: select
     attributes:
-      label: Mod Name (Crital, Penomior, SypzWid,Etc..)
+      label: Mod Name
       description: This Repo contain all the mod report I need to know which mod you report.
   - type: textarea
     attributes:
