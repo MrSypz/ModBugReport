@@ -20,9 +20,12 @@ body:
     label: Mod Name
     description: This repo contains all the mod reports. I need to know which mod you are reporting.
     options:
-      - Penomior
-      - SypWid
-      - Soul Mask
+      - value: penomior
+        label: Penomior
+        description: Report on Penomior mod.
+      - value: sypwid
+        label: SypWid
+        description: Report on the SypWid mod.
   - type: textarea
     attributes:
       label: A description of the issue
