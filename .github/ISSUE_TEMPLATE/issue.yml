@@ -15,7 +15,7 @@ body:
       description: Please do not put "latest,", "newest," or some other vague indicator.
     validations:
       required: true
-  - type: select
+  - type: dropdown
     attributes:
       label: Mod Name
       description: This repo contains all the mod reports. I need to know which mod you are reporting.
