@@ -16,9 +16,13 @@ body:
     validations:
       required: true
   - type: select
-    attributes:
-      label: Mod Name
-      description: This Repo contain all the mod report I need to know which mod you report.
+  attributes:
+    label: Mod Name
+    description: This repo contains all the mod reports. I need to know which mod you are reporting.
+    options:
+      - Penomior
+      - SypWid
+      - Soul Mask
   - type: textarea
     attributes:
       label: A description of the issue
