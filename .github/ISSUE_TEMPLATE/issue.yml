@@ -22,8 +22,8 @@ body:
       options:
         - value: penomior
         - value: sypwid
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: A description of the issue
